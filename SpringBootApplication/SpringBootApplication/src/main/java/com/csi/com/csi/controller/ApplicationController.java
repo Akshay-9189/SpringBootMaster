@@ -17,4 +17,9 @@ public class ApplicationController {
 
         return  "Welcome To CSI";
     }
+    
+    @GetMapping("/services")
+    public String csiServices(){
+    	return "Payment Gateway";
+    }
 }
